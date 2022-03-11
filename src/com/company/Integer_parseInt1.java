@@ -1,7 +1,8 @@
-package com.company;
+package com.company;xxx
 
 class Integer_parseInt1 {
     public int solution(String s) {
+        // 문자열을 숫자로 변환하는 메서드 = Integer.parseInt()
         int answer = Integer.parseInt(s);
         return answer;
     }
