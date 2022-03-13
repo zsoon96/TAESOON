@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997abe17-13e3-482a-b4ac-f45c310df575" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/com/company/row_cilumn_plus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/none_number_plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/none_number_plus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="애플리케이션.row_cilumn_plus">
+  <component name="RunManager" selected="애플리케이션.none_number_plus">
     <configuration name="Integer_parseInt1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Integer_parseInt1" />
       <module name="TAESOON" />
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.row_cilumn_plus" />
         <item itemvalue="애플리케이션.none_number_plus" />
         <item itemvalue="애플리케이션.phone_number" />
-        <item itemvalue="애플리케이션.none_num_plus" />
         <item itemvalue="애플리케이션.Integer_parseInt1" />
+        <item itemvalue="애플리케이션.row_cilumn_plus" />
+        <item itemvalue="애플리케이션.none_num_plus" />
       </list>
     </recent_temporary>
   </component>

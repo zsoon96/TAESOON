@@ -11,10 +11,11 @@ public class none_number_plus {
 //        for ( int number : numbers){
 //            sum -= number;
 //        }
-        for(int i = 0; i < numbers.length; i++){
-
-            sum -= numbers[i];
-        }
+//        for(int i = 0; i < numbers.length; i++){
+//
+//            sum -= numbers[i];
+//        }
+//         자바 스트림; 강제할당;
         return sum;
     }
     public static void  main(String[] args){
