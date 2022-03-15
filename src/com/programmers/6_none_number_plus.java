@@ -1,6 +1,6 @@
-package com.company;
+package com.programmers;
 
-public class none_number_plus {
+class none_number_plus {
     public int solution(int[] numbers) {
         // 0 - 9 까지 숫자 중, 일부 숫자가 담긴 배열이 있다.
         // 위 범위 중 그 배열에 없는 숫자의 합을 구해라!
@@ -15,11 +15,12 @@ public class none_number_plus {
 
             sum -= numbers[i];
         }
+//         자바 스트림; 강제할당;
         return sum;
     }
     public static void  main(String[] args){
         none_number_plus se = new none_number_plus();
-        int number[] = {1,2};
+        int number[] = {1,2,3,4,6,7,8,0};
         System.out.println(se.solution(number));
     }
 

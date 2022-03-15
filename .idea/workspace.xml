@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997abe17-13e3-482a-b4ac-f45c310df575" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/com/company/row_cilumn_plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/14_Divisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/16_PY_counting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/18_Mr_kim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/20_marathon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/20_subak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/21_strange_string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/22_N_split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/23_back_num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/sample_date_find.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/Integer_parseInt1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TAESOON/com/company/Integer_parseInt1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/none_number_plus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TAESOON/com/company/none_number_plus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Integer_parseInt1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/5_change_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/none_number_plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/6_none_number_plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/phone_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/9_phone_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/row_cilumn_plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/10_row_cilumn_plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/starMake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/starMake.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +56,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="애플리케이션.row_cilumn_plus">
-    <configuration name="Integer_parseInt1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Integer_parseInt1" />
+  <component name="RunManager" selected="애플리케이션.N_split">
+    <configuration name="N_split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programmers.N_split" />
       <module name="TAESOON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="none_num_plus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.none_num_plus" />
+    <configuration name="back_num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programmers.back_num" />
       <module name="TAESOON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="none_number_plus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.none_number_plus" />
+    <configuration name="marathon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programmers.marathon" />
       <module name="TAESOON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="phone_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.phone_number" />
+    <configuration name="sample_date_find" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programmers.sample_date_find" />
       <module name="TAESOON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="row_cilumn_plus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.row_cilumn_plus" />
+    <configuration name="split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programmers.split" />
       <module name="TAESOON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.row_cilumn_plus" />
-        <item itemvalue="애플리케이션.none_number_plus" />
-        <item itemvalue="애플리케이션.phone_number" />
-        <item itemvalue="애플리케이션.none_num_plus" />
-        <item itemvalue="애플리케이션.Integer_parseInt1" />
+        <item itemvalue="애플리케이션.N_split" />
+        <item itemvalue="애플리케이션.marathon" />
+        <item itemvalue="애플리케이션.back_num" />
+        <item itemvalue="애플리케이션.split" />
+        <item itemvalue="애플리케이션.sample_date_find" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +160,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/programmers/20_subak.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,6 @@
-package com.company;
+package com.programmers;
 
-public class phone_number {
+class phone_number {
     public String solution(String phone_number) {
             StringBuilder answer = new StringBuilder(phone_number);
             //String 에 담기는 값은 불변하기 때문에 StringBuilder 나 StringBuffer를 사용하는 것이 좋다.
