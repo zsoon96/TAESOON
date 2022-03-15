@@ -1,5 +1,4 @@
-package com.company;
-import java.util.*;
+package com.programmers;
 
 class Integer_parseInt1 {
     public int solution(String s) {
