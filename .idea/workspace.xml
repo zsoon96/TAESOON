@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997abe17-13e3-482a-b4ac-f45c310df575" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/com/programmers/25_square_root.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/programmers/26_min_num.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/Divisor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/Integer_parseInt1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/Mr_kim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/N_split.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/back_num.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/equals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/marathon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/none_number_plus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/phone_number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/row_cilumn_plus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/sample_date_find.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/split.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/starMake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/company/subak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programmers/10_row_cilumn_plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/10_row_cilumn_plus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programmers/20_subak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/20_subak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/programmers/23_back_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/23_back_num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/programmers/marathon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TAESOON/com/programmers/marathon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/programmers/square_root.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TAESOON/com/programmers/square_root.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programmers/20_marathon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/20_marathon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programmers/25_square_root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/25_square_root.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programmers/26_min_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/26_min_num.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,8 +120,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.min_num" />
-        <item itemvalue="애플리케이션.back_num" />
         <item itemvalue="애플리케이션.square_root" />
+        <item itemvalue="애플리케이션.back_num" />
         <item itemvalue="애플리케이션.N_split" />
         <item itemvalue="애플리케이션.marathon" />
       </list>

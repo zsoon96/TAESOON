@@ -1,12 +1,12 @@
 package com.programmers;
 
 class square_root {
-    public long solution(long n) {
+    public long solution(long n) {  // 자료형 연산 관계 찾아보기!!! ///
         long answer = 0;
-        double nn = Math.sqrt(n);
+        double nn = Math.sqrt(n); // 제곱근 찾기
 
         if(n%nn==0){
-            answer += Math.pow(nn+1,2);
+            answer += Math.pow(nn+1,2); // 제곱해주기
         }else{
             answer = -1;
         }
@@ -24,7 +24,7 @@ class square_root {
     }
     public static void  main(String[] args){
         square_root se = new square_root();
-        System.out.println(se.solution(9));
+        System.out.println(se.solution(5));
     }
 
 

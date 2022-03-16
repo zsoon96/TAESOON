@@ -5,8 +5,10 @@ import java.util.Arrays;
 class min_num {
     public int[] solution(int[] arr) {
         int[] answer = {};
+
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
+
         return answer;
     }
     public static void  main(String[] args){
