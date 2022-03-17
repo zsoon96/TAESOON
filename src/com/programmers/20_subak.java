@@ -1,6 +1,6 @@
 package com.programmers;
 
-public class subak {
+class subak {
     public String solution(int n) {
         String answer = "";
         for(int i = 0; i < n; i++){

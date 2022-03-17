@@ -1,7 +1,5 @@
 package com.programmers;
-
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.*;
 
 class back_num {
     public String solution(int n) {

@@ -2,7 +2,7 @@ package com.programmers;
 
 import java.util.Arrays;
 
-public class row_cilumn_plus {
+class row_cilumn_plus {
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = new int[arr1.length][arr1[0].length];
         // answer == arr1의 length 는 행의 길이 가졌다는 것을 의미
