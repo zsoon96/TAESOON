@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="997abe17-13e3-482a-b4ac-f45c310df575" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/com/programmers/28_Hasshad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/programmers/29_3jin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TAESOON/com/programmers/square_root.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TAESOON/com/programmers/square_root.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/programmers/25_square_root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/programmers/25_square_root.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="애플리케이션.Hasshad">
+  <component name="RunManager" selected="애플리케이션.jin">
     <configuration name="Hasshad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.programmers.Hasshad" />
       <module name="TAESOON" />
@@ -61,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N_split" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programmers.N_split" />
+    <configuration name="back_num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programmers.back_num" />
       <module name="TAESOON" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="back_num" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programmers.back_num" />
+    <configuration name="jin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programmers.jin" />
       <module name="TAESOON" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.jin" />
         <item itemvalue="애플리케이션.Hasshad" />
         <item itemvalue="애플리케이션.min_num" />
         <item itemvalue="애플리케이션.square_root" />
         <item itemvalue="애플리케이션.back_num" />
-        <item itemvalue="애플리케이션.N_split" />
       </list>
     </recent_temporary>
   </component>

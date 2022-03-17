@@ -20,7 +20,6 @@ class square_root {
 //        return -1;
 //        // -1을 리턴하시오.
 
-
     }
     public static void  main(String[] args){
         square_root se = new square_root();
