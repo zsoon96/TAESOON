@@ -2,6 +2,7 @@ package com.company;
 import java.util.*;
 // 완주하지 못한 선수 문제 깃 테스트
 // 제발 푸쉬되라....
+// 내 원격에 풀 성공 기원
 
 public class MarathonHash {
     public String solution(String[] participant, String[] completion) {
