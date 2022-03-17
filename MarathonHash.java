@@ -1,6 +1,6 @@
 package com.company;
 import java.util.*;
-// 깃 커밋 테스트
+// 완주하지 못한 선수 문제 깃 테스트
 
 public class MarathonHash {
     public String solution(String[] participant, String[] completion) {
