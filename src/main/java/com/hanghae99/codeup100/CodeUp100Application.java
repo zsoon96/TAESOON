@@ -167,68 +167,140 @@ public class CodeUp100Application {
 //        System.out.println(sentence);
 
         // 1023 - 실수 1개 입력받아 부분별로 출력하기
-        String[] num = sc.next().split("\\.");
-        int numA = Integer.parseInt(num[0]);
-        int numB = Integer.parseInt(num[1]);
-        System.out.println(numA+"\n"+numB);
+//        String[] num = sc.next().split("\\.");
+//        int numA = Integer.parseInt(num[0]);
+//        int numB = Integer.parseInt(num[1]);
+//        System.out.println(numA+"\n"+numB);
         // 또는 StringTokenizer 사용
         // > 단 한 개의 구분자만을 사용할 수 있으므로 복잡한 구분자를 사용해야 할 때는 Scanner나 split을 사용해야 한다.
-        String num2 = sc.next();
-        StringTokenizer st = new StringTokenizer(num2,".");
-        while (st.hasMoreElements()) {
-            System.out.println(st.nextToken());
-        }
+//        String num2 = sc.next();
+//        StringTokenizer st = new StringTokenizer(num2,".");
+//        while (st.hasMoreElements()) {
+//            System.out.println(st.nextToken());
+//        }
         // String.format 사용
-        String[] num3 = sc.next().split("\\.");
-        int numa = Integer.parseInt(num3[0]);
-        int numb = Integer.parseInt(num3[1]);
-        System.out.printf(String.format("%d\n%d",numa, numb));
+//        String[] num3 = sc.next().split("\\.");
+//        int numa = Integer.parseInt(num3[0]);
+//        int numb = Integer.parseInt(num3[1]);
+//        System.out.printf(String.format("%d\n%d",numa, numb));
 
         // 1024 - 단어 1개 입력받아 나누어 출력하기
-        String word = sc.next();
-        for(int i =0; i < word.length(); i++) {
-            System.out.println("\'" + word.charAt(i) + "\'");
-        }
+//        String word = sc.next();
+//        for(int i =0; i < word.length(); i++) {
+//            System.out.println("\'" + word.charAt(i) + "\'");
+//        }
 
         // 1025 - 정수 1개 입력받아 나누어 출력하기
-        String[] number = sc.next().split("");
-        System.out.println("[" + Integer.parseInt(number[0]) * 10000 + "]");
-        System.out.println("[" + Integer.parseInt(number[1]) * 1000 + "]");
-        System.out.println("[" + Integer.parseInt(number[2]) * 100 + "]");
-        System.out.println("[" + Integer.parseInt(number[3]) * 10 + "]");
-        System.out.println("[" + Integer.parseInt(number[4])  + "]");
+//        String[] number = sc.next().split("");
+//        System.out.println("[" + Integer.parseInt(number[0]) * 10000 + "]");
+//        System.out.println("[" + Integer.parseInt(number[1]) * 1000 + "]");
+//        System.out.println("[" + Integer.parseInt(number[2]) * 100 + "]");
+//        System.out.println("[" + Integer.parseInt(number[3]) * 10 + "]");
+//        System.out.println("[" + Integer.parseInt(number[4])  + "]");
 
         // 1026 - 시분초 입력받아 분만 출력하기
-        String[] time = sc.next().split(":");
-        String h = time[0];
-        String m = time[1];
-        String s = time[2];
-        System.out.println(m);
+//        String[] time = sc.next().split(":");
+//        String h = time[0];
+//        String m = time[1];
+//        String s = time[2];
+//        System.out.println(m);
 
         // 1027 - 년월일 입력 받아 형식 바꿔 출력하기
-        String[] date = sc.next().split("\\.");
-        int yy = Integer.parseInt(date[0]);
-        int mm = Integer.parseInt(date[1]);
-        int dd = Integer.parseInt(date[2]);
-        System.out.printf("%02d-%02d-%04d",dd,mm,yy);
+//        String[] date = sc.next().split("\\.");
+//        int yy = Integer.parseInt(date[0]);
+//        int mm = Integer.parseInt(date[1]);
+//        int dd = Integer.parseInt(date[2]);
+//        System.out.printf("%02d-%02d-%04d",dd,mm,yy);
         // 쉬운 버전^^
-        String[] date2 = sc.next().split("\\.");
-        System.out.println( date2[2] + "-" + date2[1] + "-" + date2[0]);;
+//        String[] date2 = sc.next().split("\\.");
+//        System.out.println( date2[2] + "-" + date2[1] + "-" + date2[0]);;
 
         // 1028 - 정수 1개 입력받아 그대로 출력하기2
         // 정수를 표현하기 위한 자료형 int / long
         // 둘의 차이점은 메모리 사용량 ! int = 32bit / long = 64bit > 표현 가능한 정수 범위가 다름
-        Long numm = sc.nextLong();
-        System.out.println(numm);
+//        Long numm = sc.nextLong();
+//        System.out.println(numm);
 
         // 1029 - 실수 1개 입력받아 그대로 출력하기2
         // 메모리 공간 크기 = float < double
-        double nuum = sc.nextDouble();
-        System.out.println(String.format("%.11f",nuum));
+//        double nuum = sc.nextDouble();
+//        System.out.println(String.format("%.11f",nuum));
 
         // 1030 - 정수 1개 입력받아 그대로 출력하기3
         // int 범위: -2147483648 ~ +2147483647 그 이상의 범위 표현하고자 할 때 Long으로 사용
-        Long i = sc.nextLong();
-        System.out.println(i);
+//        Long i = sc.nextLong();
+//        System.out.println(i);
+
+
+        //22.04.20=====================================================================================
+
+        // 1031 - 10진 정수 1개 입력받아 8진수로 출력하기
+        // printf() 활용 > %o : 8진수로 변환
+        int ln = sc.nextInt();
+        System.out.printf("%o", ln);
+        // 또는 toOctalString() 활용
+        int an = sc.nextInt();
+        String octal = Integer.toOctalString(an);
+        System.out.println(octal);
+
+        // 1032 - 10진 정수 입력받아 16진수로 출력하기1
+        // printf() 활용 > %x : 16진수로 변환
+        int bn = sc.nextInt();
+        System.out.printf("%x",bn);
+        // 또는 toHexString() 활용
+        int cn = sc.nextInt();
+        String hex = Integer.toHexString(cn);
+        System.out.println(hex);
+
+        // 1033 - 10진 정수 입력받아 16진수로 출력하기2 > 대문자
+//         printf() 활용 > %X : 16진수 대문자로 변환
+        int fn = sc.nextInt();
+        System.out.printf("%X",fn);
+        // 또는 toHexString() + toUpperCase() 활용
+        int dn = sc.nextInt();
+        String heX = Integer.toHexString(dn).toUpperCase();
+        System.out.println(heX);
+
+        sc.nextLine();
+
+        // 1034 - 8진 정수 1개 입력받아 10진수로 출력하기
+        // string으로 입력받고, 8진수 int(10진수) 타입으로 변환 > valueOf 활용
+        String en = sc.nextLine();
+        int a = Integer.valueOf(en,8);
+        System.out.println(a);
+        // string으로 입력받고, 8진수 int 타입으로 변환 > parseInt 활용
+        String hn = sc.nextLine();
+        int b = Integer.parseInt(hn,8);
+        System.out.println(b);
+
+        // 1035 - 16진 정수 1개 입력받아 8진수로 출력하기
+        // string으로 입력받고, 16진수를 10진수로 변환 후 8진수로 출력 (16진수 > 8진수 변환방법 = 10진수가 아닌 이외의 수들 동일)
+        // parseInt(), toOctalString() 활용
+        String mn = sc.nextLine();
+        int c = Integer.parseInt(mn,16);
+        System.out.println(Integer.toOctalString(c));
+        // valueOf(), prinf() 활용
+        String nn = sc.nextLine();
+        int d = Integer.valueOf(nn,16);
+        System.out.printf("%o",d);
+
+        // 1036 - 영문자 1개 입력받아 10진수로 출력하기
+        // 문자열로 받고 1자 잘라준 다음 int로 형변환
+        char c1 = sc.nextLine().charAt(0);
+        int e = (int)c1;
+        System.out.println(e);
+        // 축약버전
+        char c2 = sc.nextLine().charAt(0);
+        System.out.println((int)c2);
+
+        // 1037 - 정수 입력받아 아스키 문자로 출력하기
+        int i1 = sc.nextInt();
+        char i2 = (char)i1;
+        System.out.println(i2);
+        // 축약버전
+        int i3 = sc.nextInt();
+        System.out.println((char)i3);
+
+
     }
 }
