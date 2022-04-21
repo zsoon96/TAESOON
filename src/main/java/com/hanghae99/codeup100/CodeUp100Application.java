@@ -3,6 +3,7 @@ package com.hanghae99.codeup100;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import javax.xml.soap.SAAJResult;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
@@ -236,71 +237,168 @@ public class CodeUp100Application {
 
         // 1031 - 10진 정수 1개 입력받아 8진수로 출력하기
         // printf() 활용 > %o : 8진수로 변환
-        int ln = sc.nextInt();
-        System.out.printf("%o", ln);
+//        int ln = sc.nextInt();
+//        System.out.printf("%o", ln);
         // 또는 toOctalString() 활용
-        int an = sc.nextInt();
-        String octal = Integer.toOctalString(an);
-        System.out.println(octal);
+//        int an = sc.nextInt();
+//        String octal = Integer.toOctalString(an);
+//        System.out.println(octal);
 
         // 1032 - 10진 정수 입력받아 16진수로 출력하기1
         // printf() 활용 > %x : 16진수로 변환
-        int bn = sc.nextInt();
-        System.out.printf("%x",bn);
+//        int bn = sc.nextInt();
+//        System.out.printf("%x",bn);
         // 또는 toHexString() 활용
-        int cn = sc.nextInt();
-        String hex = Integer.toHexString(cn);
-        System.out.println(hex);
+//        int cn = sc.nextInt();
+//        String hex = Integer.toHexString(cn);
+//        System.out.println(hex);
 
         // 1033 - 10진 정수 입력받아 16진수로 출력하기2 > 대문자
 //         printf() 활용 > %X : 16진수 대문자로 변환
-        int fn = sc.nextInt();
-        System.out.printf("%X",fn);
+//        int fn = sc.nextInt();
+//        System.out.printf("%X",fn);
         // 또는 toHexString() + toUpperCase() 활용
-        int dn = sc.nextInt();
-        String heX = Integer.toHexString(dn).toUpperCase();
-        System.out.println(heX);
+//        int dn = sc.nextInt();
+//        String heX = Integer.toHexString(dn).toUpperCase();
+//        System.out.println(heX);
 
-        sc.nextLine();
+//        sc.nextLine();
 
         // 1034 - 8진 정수 1개 입력받아 10진수로 출력하기
         // string으로 입력받고, 8진수 int(10진수) 타입으로 변환 > valueOf 활용
-        String en = sc.nextLine();
-        int a = Integer.valueOf(en,8);
-        System.out.println(a);
+//        String en = sc.nextLine();
+//        int a = Integer.valueOf(en,8);
+//        System.out.println(a);
         // string으로 입력받고, 8진수 int 타입으로 변환 > parseInt 활용
-        String hn = sc.nextLine();
-        int b = Integer.parseInt(hn,8);
-        System.out.println(b);
+//        String hn = sc.nextLine();
+//        int b = Integer.parseInt(hn,8);
+//        System.out.println(b);
 
         // 1035 - 16진 정수 1개 입력받아 8진수로 출력하기
         // string으로 입력받고, 16진수를 10진수로 변환 후 8진수로 출력 (16진수 > 8진수 변환방법 = 10진수가 아닌 이외의 수들 동일)
         // parseInt(), toOctalString() 활용
-        String mn = sc.nextLine();
-        int c = Integer.parseInt(mn,16);
-        System.out.println(Integer.toOctalString(c));
+//        String mn = sc.nextLine();
+//        int c = Integer.parseInt(mn,16);
+//        System.out.println(Integer.toOctalString(c));
         // valueOf(), prinf() 활용
-        String nn = sc.nextLine();
-        int d = Integer.valueOf(nn,16);
-        System.out.printf("%o",d);
+//        String nn = sc.nextLine();
+//        int d = Integer.valueOf(nn,16);
+//        System.out.printf("%o",d);
 
         // 1036 - 영문자 1개 입력받아 10진수로 출력하기
         // 문자열로 받고 1자 잘라준 다음 int로 형변환
-        char c1 = sc.nextLine().charAt(0);
-        int e = (int)c1;
-        System.out.println(e);
+//        char c1 = sc.nextLine().charAt(0);
+//        int e = (int)c1;
+//        System.out.println(e);
         // 축약버전
-        char c2 = sc.nextLine().charAt(0);
-        System.out.println((int)c2);
+//        char c2 = sc.nextLine().charAt(0);
+//        System.out.println((int)c2);
 
         // 1037 - 정수 입력받아 아스키 문자로 출력하기
-        int i1 = sc.nextInt();
-        char i2 = (char)i1;
-        System.out.println(i2);
+//        int i1 = sc.nextInt();
+//        char i2 = (char)i1;
+//        System.out.println(i2);
         // 축약버전
-        int i3 = sc.nextInt();
-        System.out.println((char)i3);
+//        int i3 = sc.nextInt();
+//        System.out.println((char)i3);
 
+
+        //22.04.21=====================================================================================
+
+        // 1038 - 정수 2개 입력받아 합 출력하기1
+        // 입력되는 정수(int)는 -1073741824 ~ 1073741824 이다. == int의 범위
+        // 1073741824 + 1073741824 > int 범위를 벗어남 (-2,147,483,648 ~ 2,147,483,647)
+        // long 타입으로 형변환 (-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807)
+        long n1=sc.nextInt(), n2=sc.nextInt();
+        System.out.println(n1+n2);
+        // 또는 long.valueOf()
+        int c1= sc.nextInt(), c2= sc.nextInt();
+        Long d1 = Long.valueOf(c1);
+        Long d2 = Long.valueOf(c2);
+        System.out.println(d1+d2);
+        // 또는 (long)
+        int a1= sc.nextInt(), a2=sc.nextInt();
+        Long b1 = (long) a1;
+        Long b2 = (long) a2;
+        System.out.println(b1+b2);
+
+        sc.nextLine(); // 객체 닫기
+
+        //1039 - 정수 2개 입력받아 합 출력하기2
+        // 2개의 정수가 공백으로 입력 > split으로 나눠주기
+        // Long으로 형변환 후 합 출력
+        String ab = sc.nextLine();
+        String [] abab = ab.split(" ");
+        Long a = Long.parseLong(abab[0]);
+        Long b = Long.parseLong(abab[1]);
+        System.out.println(a+b);
+        // 또는 StringTokenizer 사용
+        // > 단 한 개의 구분자만을 사용
+        String bc = sc.nextLine();
+        StringTokenizer de = new StringTokenizer(bc, " ");
+        String [] dede = new String[2];
+        int i = 0;
+        while (de.hasMoreElements()) {
+            dede[i] = de.nextToken(); //de에 토큰이 있으면 담아주기
+            i++;
+        }
+        Long bb = Long.valueOf(dede[0]);
+        Long cc = Long.valueOf(dede[1]);
+        System.out.println(bb+cc);
+
+        // 1040 - 정수 1개 입력받아 부호 바꿔 출력하기
+        int f = sc.nextInt();
+        System.out.println(f*-1);
+
+        // 1041 - 문자 1개 입력받아 다음 문자 출력하기
+        // 문자형으로 입력 후 10진수로 변환 +1 > 문자열 변환
+        char s = sc.next().charAt(0);
+        int h = (int)s+1;
+        char j = (char)h;
+        System.out.println(j);
+        // 축약형 버전
+        char k = sc.next().charAt(0);
+        System.out.println((char)(k+1));
+
+        // 1042 - 정수 2개 입력받아 나눈 몫 출력하기
+        int i1 = sc.nextInt(), i2 = sc.nextInt();
+        System.out.println(i1/i2);
+
+        // 1043 - 정수 2개 입력받아 나눈 나머지 출력하기
+        int i3 = sc.nextInt(), i4 = sc.nextInt();
+        System.out.println(i3%i4);
+
+        // 1044 - 정수 1개 입력받아 1 더해 출력하기
+        // int 범위 끝 = 2,147,483,647 + 1을 할 경우를 대비해서
+        // long 타입으로 형변환 (-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807)
+        long i5 = sc.nextInt();
+        System.out.println(i5+1);
+
+        sc.nextLine();
+
+        // 1045 - 정수 2개 입력받아 자동 계산하기
+        String list = sc.nextLine();
+        String [] str = list.split(" ");
+        int i6 = Integer.parseInt(str[0]);
+        int i7 = Integer.parseInt(str[1]);
+//        System.out.println(i6 + i7);
+//        System.out.println(i6 - i7);
+//        System.out.println(i6 * i7);
+//        System.out.println(i6 / i7);
+//        System.out.println(i6 % i7);
+//        System.out.printf("%.2f",(double)i6/i7);
+        // 한꺼번에 출력
+        System.out.println((i6+i7)+"\n"+(i6-i7)+"\n"+(i6*i7)+"\n"+(i6/i7)+"\n"+(i6%i7));
+        System.out.printf("%.2f",(double)i6/i7);
+
+        // 1046 - 정수 3개 입력받아 합과 평균 출력하기
+        String list2 = sc.nextLine();
+        String [] str2 = list2.split(" ");
+        int i9 = Integer.parseInt(str2[0]);
+        int i10 = Integer.parseInt(str2[1]);
+        int i11 = Integer.parseInt(str2[2]);
+        System.out.println(i9 + i10 + i11);
+        System.out.printf("%.1f",(double)((i9+i10+i11)/3));
 
     }
 }
