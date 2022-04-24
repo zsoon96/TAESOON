@@ -309,78 +309,78 @@ public class CodeUp100Application {
         // 입력되는 정수(int)는 -1073741824 ~ 1073741824 이다. == int의 범위
         // 1073741824 + 1073741824 > int 범위를 벗어남 (-2,147,483,648 ~ 2,147,483,647)
         // long 타입으로 형변환 (-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807)
-        long n1=sc.nextInt(), n2=sc.nextInt();
-        System.out.println(n1+n2);
+//        long n1=sc.nextInt(), n2=sc.nextInt();
+//        System.out.println(n1+n2);
         // 또는 long.valueOf()
-        int c1= sc.nextInt(), c2= sc.nextInt();
-        Long d1 = Long.valueOf(c1);
-        Long d2 = Long.valueOf(c2);
-        System.out.println(d1+d2);
+//        int c1= sc.nextInt(), c2= sc.nextInt();
+//        Long d1 = Long.valueOf(c1);
+//        Long d2 = Long.valueOf(c2);
+//        System.out.println(d1+d2);
         // 또는 (long)
-        int a1= sc.nextInt(), a2=sc.nextInt();
-        Long b1 = (long) a1;
-        Long b2 = (long) a2;
-        System.out.println(b1+b2);
+//        int a1= sc.nextInt(), a2=sc.nextInt();
+//        Long b1 = (long) a1;
+//        Long b2 = (long) a2;
+//        System.out.println(b1+b2);
 
-        sc.nextLine(); // 객체 닫기
+//        sc.nextLine(); // 객체 닫기
 
         //1039 - 정수 2개 입력받아 합 출력하기2
         // 2개의 정수가 공백으로 입력 > split으로 나눠주기
         // Long으로 형변환 후 합 출력
-        String ab = sc.nextLine();
-        String [] abab = ab.split(" ");
-        Long a = Long.parseLong(abab[0]);
-        Long b = Long.parseLong(abab[1]);
-        System.out.println(a+b);
+//        String ab = sc.nextLine();
+//        String [] abab = ab.split(" ");
+//        Long a = Long.parseLong(abab[0]);
+//        Long b = Long.parseLong(abab[1]);
+//        System.out.println(a+b);
         // 또는 StringTokenizer 사용
         // > 단 한 개의 구분자만을 사용
-        String bc = sc.nextLine();
-        StringTokenizer de = new StringTokenizer(bc, " ");
-        String [] dede = new String[2];
-        int i = 0;
-        while (de.hasMoreElements()) {
-            dede[i] = de.nextToken(); //de에 토큰이 있으면 담아주기
-            i++;
-        }
-        Long bb = Long.valueOf(dede[0]);
-        Long cc = Long.valueOf(dede[1]);
-        System.out.println(bb+cc);
+//        String bc = sc.nextLine();
+//        StringTokenizer de = new StringTokenizer(bc, " ");
+//        String [] dede = new String[2];
+//        int i = 0;
+//        while (de.hasMoreElements()) {
+//            dede[i] = de.nextToken(); //de에 토큰이 있으면 담아주기
+//            i++;
+//        }
+//        Long bb = Long.valueOf(dede[0]);
+//        Long cc = Long.valueOf(dede[1]);
+//        System.out.println(bb+cc);
 
         // 1040 - 정수 1개 입력받아 부호 바꿔 출력하기
-        int f = sc.nextInt();
-        System.out.println(f*-1);
+//        int f = sc.nextInt();
+//        System.out.println(f*-1);
 
         // 1041 - 문자 1개 입력받아 다음 문자 출력하기
         // 문자형으로 입력 후 10진수로 변환 +1 > 문자열 변환
-        char s = sc.next().charAt(0);
-        int h = (int)s+1;
-        char j = (char)h;
-        System.out.println(j);
+//        char s = sc.next().charAt(0);
+//        int h = (int)s+1;
+//        char j = (char)h;
+//        System.out.println(j);
         // 축약형 버전
-        char k = sc.next().charAt(0);
-        System.out.println((char)(k+1));
+//        char k = sc.next().charAt(0);
+//        System.out.println((char)(k+1));
 
         // 1042 - 정수 2개 입력받아 나눈 몫 출력하기
-        int i1 = sc.nextInt(), i2 = sc.nextInt();
-        System.out.println(i1/i2);
+//        int i1 = sc.nextInt(), i2 = sc.nextInt();
+//        System.out.println(i1/i2);
 
         // 1043 - 정수 2개 입력받아 나눈 나머지 출력하기
-        int i3 = sc.nextInt(), i4 = sc.nextInt();
-        System.out.println(i3%i4);
+//        int i3 = sc.nextInt(), i4 = sc.nextInt();
+//        System.out.println(i3%i4);
 
         // 1044 - 정수 1개 입력받아 1 더해 출력하기
         // int 범위 끝 = 2,147,483,647 + 1을 할 경우를 대비해서
         // long 타입으로 형변환 (-9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807)
-        long i5 = sc.nextInt();
-        System.out.println(i5+1);
+//        long i5 = sc.nextInt();
+//        System.out.println(i5+1);
 
-        sc.nextLine();
+//        sc.nextLine();
 
         // 1045 - 정수 2개 입력받아 자동 계산하기
-        String list = sc.nextLine();
-        String [] str = list.split(" ");
-        int i6 = Integer.parseInt(str[0]);
-        int i7 = Integer.parseInt(str[1]);
+//        String list = sc.nextLine();
+//        String [] str = list.split(" ");
+//        int i6 = Integer.parseInt(str[0]);
+//        int i7 = Integer.parseInt(str[1]);
 //        System.out.println(i6 + i7);
 //        System.out.println(i6 - i7);
 //        System.out.println(i6 * i7);
@@ -388,17 +388,83 @@ public class CodeUp100Application {
 //        System.out.println(i6 % i7);
 //        System.out.printf("%.2f",(double)i6/i7);
         // 한꺼번에 출력
-        System.out.println((i6+i7)+"\n"+(i6-i7)+"\n"+(i6*i7)+"\n"+(i6/i7)+"\n"+(i6%i7));
-        System.out.printf("%.2f",(double)i6/i7);
+//        System.out.println((i6+i7)+"\n"+(i6-i7)+"\n"+(i6*i7)+"\n"+(i6/i7)+"\n"+(i6%i7));
+//        System.out.printf("%.2f",(double)i6/i7);
 
         // 1046 - 정수 3개 입력받아 합과 평균 출력하기
-        String list2 = sc.nextLine();
-        String [] str2 = list2.split(" ");
-        int i9 = Integer.parseInt(str2[0]);
-        int i10 = Integer.parseInt(str2[1]);
-        int i11 = Integer.parseInt(str2[2]);
-        System.out.println(i9 + i10 + i11);
-        System.out.printf("%.1f",(double)((i9+i10+i11)/3));
+//        String list2 = sc.nextLine();
+//        String [] str2 = list2.split(" ");
+//        int i9 = Integer.parseInt(str2[0]);
+//        int i10 = Integer.parseInt(str2[1]);
+//        int i11 = Integer.parseInt(str2[2]);
+//        System.out.println(i9 + i10 + i11);
+//        System.out.printf("%.1f",(double)((i9+i10+i11)/3));
 
+
+        //22.04.24=====================================================================================
+
+        // 1047 - 정수 1개 입력받아 2배 곱해 출력하기
+        // *2의 값을 출력해도 되지만,
+        // 정수를 2배로 곱하거나, 나누어 계산해 주는 비트단위시프트 연산자 <<, >>를 이용해보기
+        int a = sc.nextInt();
+//        System.out.printf("%d", a<<1); // a를 2배한 값 출력
+        System.out.println(a<<1);
+
+        // 1048 - 한 번에 2의 거듭제곱 배로 출력하기
+        int b = sc.nextInt(), c = sc.nextInt();
+//        System.out.printf("%d",b<<c); // b를 2의 c배 곱한 값
+        // Math.pow(밑, 지수) 사용 = 제곱함수
+        // 기본 타입이 실수형이기 때문에 int타입으로 형변환
+        System.out.println((int)(b*Math.pow(2,c)));
+
+        // 1049 - 두 정수 입력받아 비교하기1
+        int d = sc.nextInt(), e = sc.nextInt();
+        if (d>e)
+            System.out.println(1);
+        else if (d<=e)
+            System.out.println(0);
+
+        // 1050 - 두 정수 입력받아 비교하기2
+        int f = sc.nextInt(), g = sc.nextInt();
+        if (f == g) {
+            System.out.println(1);
+        } else {
+            System.out.println(0);
+        }
+
+        // 1051 - 두 정수 입력받아 비교하기3
+        int h = sc.nextInt(), i = sc.nextInt();
+        // if 삼항 연산자 활용
+        int result = h <= i ? 1 : 0;
+        System.out.println(result);
+
+        // 1052 - 두 정수 입력받아 비교하기4
+        int j = sc.nextInt(), k = sc.nextInt();
+        int result2 = j != k ? 1 : 0;
+        System.out.println(result2);
+
+        // 1053 - 참 거짓 바꾸기
+        int l = sc.nextInt();
+        System.out.println(l == 0 ? 1 : 0);
+
+        // 1054 - 둘 다 참일 경우만 참 출력하기
+        int m = sc.nextInt(), n = sc.nextInt();
+        System.out.println( m==n?1:0);
+
+        // 1055 - 하나라도 참이면 참 출력하기
+        int o = sc.nextInt(), p = sc.nextInt();
+        System.out.println(o==1||p==1?1:0);
+
+        // 1056 - 참/거짓이 서로 다를 때에만 참 출력하기
+        int q = sc.nextInt(), r = sc.nextInt();
+        System.out.println(q==1&&r==0?1:0);
+
+        // 1057 - 참/거짓이 서로 같을 때에만 참 출력하기
+        int s = sc.nextInt(), t = sc.nextInt();
+        System.out.println(s==t?1:0);
+
+        // 1058 - 둘 다 거짓일 경우만 참 출력하기
+        int u = sc.nextInt(), v = sc.nextInt();
+        System.out.println(u==0&&v==0?1:0);
     }
 }
